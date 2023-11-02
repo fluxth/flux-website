@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "helpers:pinGitHubActionDigests",
+    "regexManagers:githubActionsVersions",
+    "npm:unpublishSafe",
+    ":maintainLockFilesMonthly",
+    ":pinVersions"
+  ],
+  "pre-commit": {
+    "enabled": true
+  },
+  "reviewers": ["fluxth"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["after 7pm every weekday", "before 7am every weekday", "every weekend"]
+}
