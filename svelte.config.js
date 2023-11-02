@@ -9,14 +9,14 @@ const config = {
 
   kit: {
     adapter: adapter({
-      fallback: "_404.html"
+      fallback: "_404.html",
     }),
     csp: {
       directives: {
-        "script-src": ["self"]
-      }
-    }
-  }
+        "script-src": ["self"],
+      },
+    },
+  },
 };
 
 export default config;
