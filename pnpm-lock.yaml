@@ -6,13 +6,13 @@ settings:
 
 dependencies:
   '@fortawesome/free-brands-svg-icons':
-    specifier: ^6.4.2
+    specifier: 6.4.2
     version: 6.4.2
   '@fortawesome/free-solid-svg-icons':
-    specifier: ^6.4.2
+    specifier: 6.4.2
     version: 6.4.2
   svelte-fa:
-    specifier: ^3.0.4
+    specifier: 3.0.4
     version: 3.0.4
 
 devDependencies:
