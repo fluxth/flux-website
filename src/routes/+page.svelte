@@ -7,7 +7,7 @@
 </svelte:head>
 
 <div class="text-center">
-  <h1 class="text-3xl font-bold mb-1">thitat.net</h1>
+  <h1 class="text-3xl font-bold text-neutral-700 mb-1">thitat.net</h1>
   <p class="text-sm italic text-neutral-400">my website is under construction</p>
 </div>
 <div class="flex flex-col w-full p-2 rounded-lg border shadow-lg text-center">
