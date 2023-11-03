@@ -1,7 +1,7 @@
 <script lang="ts">
   export let href: string | undefined = undefined;
 
-  let commonStyle = "p-2 transition-colors rounded-lg";
+  let commonStyle = "p-2 transition-colors rounded-lg text-center";
 </script>
 
 {#if href}
