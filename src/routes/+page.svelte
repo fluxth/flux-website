@@ -1,4 +1,8 @@
 <script lang="ts">
+  import Fa from "svelte-fa";
+  import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+  import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
   import LinkButton from "$lib/components/LinkButton.svelte";
 </script>
 
@@ -13,9 +17,16 @@
 <div class="flex flex-col w-full p-2 rounded-lg border shadow-lg text-center">
   <p class="text-xs text-neutral-400 mb-2">reach me on</p>
   <div class="flex flex-col gap-1">
-    <LinkButton href="https://github.com/fluxth">GitHub</LinkButton>
-    <LinkButton href="https://linkedin.com/in/fluxth">LinkedIn</LinkButton>
+    <LinkButton href="https://github.com/fluxth">
+      <Fa class="inline mr-1" icon={faGithub} />
+      GitHub
+    </LinkButton>
+    <LinkButton href="https://linkedin.com/in/fluxth">
+      <Fa class="inline mr-1" icon={faLinkedin} />
+      LinkedIn
+    </LinkButton>
     <LinkButton>
+      <Fa class="inline mr-1" icon={faEnvelope} />
       flux<span class="at-prefix">thitat.net</span>
     </LinkButton>
   </div>

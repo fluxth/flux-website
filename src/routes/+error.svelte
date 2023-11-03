@@ -1,4 +1,7 @@
 <script lang="ts">
+  import Fa from "svelte-fa";
+  import { faHome } from "@fortawesome/free-solid-svg-icons";
+
   import { page } from "$app/stores";
   import LinkButton from "$lib/components/LinkButton.svelte";
 </script>
@@ -13,5 +16,10 @@
     <p class="text-neutral-400">{$page.error.message}</p>
   </div>
 
-  <LinkButton href="/">Back to homepage</LinkButton>
+  <div class="text-center">
+    <LinkButton href="/">
+      <Fa class="inline mr-1" icon={faHome} />
+      Back to homepage
+    </LinkButton>
+  </div>
 </div>
