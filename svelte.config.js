@@ -14,7 +14,7 @@ const config = {
     csp: {
       directives: {
         "script-src": ["self"],
-        "style-src": ["self"],
+        "style-src": ["self", "unsafe-inline"],
       },
     },
   },
