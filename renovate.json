@@ -25,8 +25,8 @@
       "automergeStrategy": "squash"
     },
     {
-      "description": "Auto-merge testable NPM patch and digest updates",
-      "matchUpdateTypes": ["patch", "digest"],
+      "description": "Auto-merge testable NPM updates",
+      "matchUpdateTypes": ["minor", "patch", "digest"],
       "matchManagers": ["npm"],
       "matchPackagePrefixes": [
         "eslint",
