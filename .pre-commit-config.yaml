@@ -13,15 +13,6 @@ repos:
       - id: check-executables-have-shebangs
       - id: check-shebang-scripts-are-executable
 
-  - repo: https://github.com/antonbabenko/pre-commit-terraform
-    rev: v1.86.1
-    hooks:
-      - id: terraform_fmt
-      - id: terraform_tflint
-        args:
-          - --args=--config=__GIT_WORKING_DIR__/.tflint.hcl
-          - --hook-config=--delegate-chdir
-
   # install this with brew. We install it manually during CI runs.
   # avoids pulling this image
   # rhysd/actionlint                    1.6.25    76bc37c1f7b6   2 months ago   69.6MB
