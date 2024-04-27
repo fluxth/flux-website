@@ -34,7 +34,7 @@
     "vitest": "1.5.1"
   },
   "type": "module",
-  "packageManager": "pnpm@9.0.5",
+  "packageManager": "pnpm@9.0.6",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "6.5.2",
     "@fortawesome/free-solid-svg-icons": "6.5.2",
