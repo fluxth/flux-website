@@ -31,7 +31,7 @@
     "typescript": "5.5.3",
     "typescript-eslint": "8.0.0-alpha.44",
     "vite": "5.3.4",
-    "vitest": "2.0.3"
+    "vitest": "2.0.4"
   },
   "type": "module",
   "packageManager": "pnpm@9.5.0",
