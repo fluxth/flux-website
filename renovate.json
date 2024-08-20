@@ -14,12 +14,13 @@
   "reviewers": ["fluxth"],
   "timezone": "Asia/Tokyo",
   "schedule": ["before 7am every saturday"],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
   "packageRules": [
     {
       "description": "Auto-merge GitHub Actions patch and digest updates",
       "matchUpdateTypes": ["patch", "digest"],
       "matchManagers": ["github-actions"],
-      "schedule": ["before 7am"],
       "automerge": true,
       "automergeType": "pr",
       "automergeStrategy": "squash"
@@ -30,7 +31,6 @@
       "matchManagers": ["npm"],
       "matchPackagePrefixes": ["eslint", "@typescript-eslint", "prettier"],
       "matchPackageNames": ["vitest", "svelte-check", "typescript", "tslib"],
-      "schedule": ["before 7am"],
       "automerge": true,
       "automergeType": "pr",
       "automergeStrategy": "squash"
