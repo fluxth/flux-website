@@ -39,9 +39,6 @@
       >publicly available</Link
     >
   </p>
-  <p class="text-xs text-neutral-400">
-    view legacy website at <Link href="https://flux.ci">flux.ci</Link>
-  </p>
 </div>
 
 <style>
