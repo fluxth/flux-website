@@ -35,7 +35,7 @@
         "typescript",
         "tslib",
         "eslint{/,}**",
-        "@typescript-eslint{/,}**",
+        "typescript-eslint{/,}**",
         "prettier{/,}**"
       ],
       "automerge": true,
