@@ -36,8 +36,8 @@
   "type": "module",
   "packageManager": "pnpm@9.15.0",
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "6.7.1",
-    "@fortawesome/free-solid-svg-icons": "6.7.1",
+    "@fortawesome/free-brands-svg-icons": "6.7.2",
+    "@fortawesome/free-solid-svg-icons": "6.7.2",
     "svelte-fa": "4.0.3"
   }
 }
