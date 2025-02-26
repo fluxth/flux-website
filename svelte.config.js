@@ -9,7 +9,7 @@ const config = {
 
   kit: {
     adapter: adapter({
-      fallback: "_404.html",
+      fallback: "404.html",
     }),
     csp: {
       directives: {
