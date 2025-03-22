@@ -88,4 +88,5 @@ jobs:
 
       - name: Upload website
         run: |
-          aws s3 sync --delete ./build "s3://${{ secrets.GHA_DEPLOYMENT_S3_BUCKET }}/"
+          aws s3 sync --delete --exclude="*" --include="_app/immutable/*" --cache-control="public, max-age=86400, immutable" ./build "s3://${{ secrets.GHA_DEPLOYMENT_S3_BUCKET }}/"
+          aws s3 sync --delete --exclude="_app/immutable/*" --cache-control="no-cache" ./build "s3://${{ secrets.GHA_DEPLOYMENT_S3_BUCKET }}/"
