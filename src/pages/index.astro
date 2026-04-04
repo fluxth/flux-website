@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import faGithub from "@fortawesome/free-brands-svg-icons/faGithub";
+import faLinkedIn from "@fortawesome/free-brands-svg-icons/faLinkedIn";
 ---
 
 <Layout>
@@ -42,6 +44,14 @@ import Layout from "../layouts/Layout.astro";
                 href="https://github.com/fluxth"
                 class="cursor-pointer rounded-lg border border-blue-700 bg-gradient-to-b from-blue-400 via-blue-500 to-blue-600 px-6 py-2.5 font-bold text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.4),0_1px_2px_rgba(0,0,0,0.2)] [text-shadow:0_1px_1px_rgba(0,0,0,0.4)] transition-all hover:from-blue-500 hover:to-blue-700 active:translate-y-[1px] active:shadow-[inset_0_3px_5px_rgba(0,0,0,0.2)] inline-block"
               >
+                <svg
+                  class="-mt-0.75 h-4 w-4 flex-no-shrink fill-current inline drop-shadow-[0_1px_1px_rgba(0,0,0,0.4)]"
+                  fill="none"
+                  viewBox={`0 0 ${faGithub.width} ${faGithub.height}`}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d={faGithub.svgPathData}></path>
+                </svg>
                 GitHub
               </a>
 
@@ -49,6 +59,14 @@ import Layout from "../layouts/Layout.astro";
                 href="https://linkedin.com/in/fluxth"
                 class="ursor-pointer rounded-lg border border-slate-400 bg-gradient-to-b from-white via-slate-50 to-slate-200 px-6 py-2.5 font-bold text-slate-700 shadow-[inset_0_1px_0_white,0_1px_2px_rgba(0,0,0,0.15)] [text-shadow:0_1px_0_white] transition-all hover:from-white hover:to-slate-300 active:translate-y-[1px] active:shadow-[inset_0_3px_5px_rgba(0,0,0,0.1)] inline-block"
               >
+                <svg
+                  class="-mt-0.75 h-4 w-4 flex-no-shrink fill-current inline drop-shadow-[0_1px_0_white]"
+                  fill="none"
+                  viewBox={`0 0 ${faLinkedIn.width} ${faLinkedIn.height}`}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d={faLinkedIn.svgPathData}></path>
+                </svg>
                 LinkedIn
               </a>
             </div>
