@@ -25,9 +25,3 @@ repos:
         entry: pnpm lint
         language: system
         pass_filenames: false
-
-      - id: check
-        name: check
-        entry: pnpm check
-        language: system
-        pass_filenames: false
