@@ -13,9 +13,9 @@
   "packageManager": "pnpm@11.25.0",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "7.3.1",
-    "@tailwindcss/vite": "4.3.3",
+    "@tailwindcss/vite": "4.3.4",
     "astro": "7.3.3",
-    "tailwindcss": "4.3.3"
+    "tailwindcss": "4.3.4"
   },
   "devDependencies": {
     "prettier": "3.9.10",
